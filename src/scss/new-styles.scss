@@ -1,3 +1,7 @@
+// Define your variables
+$primary-color: red;
+$secondary-color: green;
+
 html, body {
     font-family: Arial;
     font-size: 62.5%;
@@ -46,29 +50,47 @@ html, body {
     padding-left: 15px;
     padding-right: 15px;
     text-align: center;
-    color: #FFCFCF;
+    color: $primary-color;
   }
   
   .content {
     width: 85%;
     min-height: 750px;
     min-width: 600px;
-    background-color: #FFCFCF;
+    background-color: $secondary-color;
+
+    ul
+    {
+        padding-left: 30px;
+    }
+
+    h1
+    {
+        padding-left: 30px;
+    }
+
+    p
+    {
+        padding-left: 30px;
+        width: 55%;
+        min-width: 550px;
+    }
+
+    img, video
+    {
+        padding-left: 30px;
+        height: 350px;
+        width: 550px;
+        margin-bottom: 30px;
+    }
   }
   
-  .content ul {
-    padding-left: 30px;
-  }
+
+  /*
+
+  .content 
   
-  .content h1 {
-    padding-left: 30px;
-  }
-  
-  .content p {
-    padding-left: 30px;
-    width: 55%;
-    min-width: 550px;
-  }
+  .content 
   
   .content img, .content video {
     padding-left: 30px;
@@ -76,4 +98,5 @@ html, body {
     width: 550px;
     margin-bottom: 30px;
   }
-  
+
+  */

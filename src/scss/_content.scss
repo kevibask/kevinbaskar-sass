@@ -1,0 +1,38 @@
+.content {
+
+    > * {
+        padding-left: 30px;
+        font-size: 3%;
+        line-height: 1.5;
+      }
+
+    width: 85%;
+    min-height: 750px;
+    min-width: 600px;
+    background-color: $secondary-color;
+
+    ul
+    {
+
+    }
+
+    h1
+    {
+        font-size: 3rem;
+    }
+
+    p
+    {
+
+        width: 55%;
+        min-width: 550px;
+    }
+
+    img, video
+    {
+
+        height: 350px;
+        width: 550px;
+        margin-bottom: 30px;
+    }
+  }
